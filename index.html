@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ElectroShop</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="header" class="fixed-top">
+      <div class="container-fluid  d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1><a href="index.html">ElectroShop</a></h1>
+          
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#about">HOME</a></li>
+            <li><a class="nav-link scrollto" href="#menu">Featured</a></li>
+            <li><a class="nav-link scrollto" href="#products">OUR product</a></li>
+            <li><a class="nav-link scrollto" href="#about">login</a></li>
+            <li><a class="nav-link scrollto" href="#contact">CONTACT US</a></li>
+          </ul>
+          <span class="bi bi-list"></span>
+        </nav>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Best Electronics shop</h1>
+        <button class="banner-btn">shop now</button>
+      </div>
+    </div>
+    <section class="products">
+      <div class="section-title">
+        <h2>our products</h2>
+      </div>
+      <div class="products-center">
+         <article class="product">
+          <div class="img-container">
+            <img
+              src="./assets/img/product-1.jpg"
+              alt="product"
+              class="product-img"
+            />
+
+            <button class="bag-btn" data-id="1">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              add to cart
+            </button>
+          </div>
+          <h3>Oppo</h3>
+          <h4>Price: $16</h4>
+        </article>
+      </div>
+      <div class="products-center">
+        <article class="product">
+          <div class="img-container">
+            <img src="./assets/img/product-2.jpg" alt="product" class="product-img" />
+      
+            <button class="bag-btn" data-id="1">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              add to cart
+            </button>
+          </div>
+          <h3>Oppo</h3>
+          <h4>Price: $16</h4>
+        </article>
+      </div>
+      <div class="products-center">
+        <article class="product">
+          <div class="img-container">
+            <img src="./assets/img/product-3.jpg" alt="product" class="product-img" />
+      
+            <button class="bag-btn" data-id="1">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              add to cart
+            </button>
+          </div>
+          <h3>Oppo</h3>
+          <h4>Price: $16</h4>
+        </article>
+      </div>
+      <div class="products-center">
+        <article class="product">
+          <div class="img-container">
+            <img src="./assets/img/product-4.jpeg" alt="product" class="product-img" />
+      
+            <button class="bag-btn" data-id="1">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              add to cart
+            </button>
+          </div>
+          <h3>Oppo</h3>
+          <h4>Price: $16</h4>
+        </article>
+      </div>
+    </section>
+  
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fa fa-window-close" aria-hidden="true"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <div class="cart-item">
+            <img src="./assets/img/product-1.jpeg" alt="product" />
+
+            <div>
+              <h4>queen bed</h4>
+              <h5>$9.00</h5>
+              <span class="remove-item">remove</span>
+            </div>
+
+            <div>
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+              <p class="item-amount">1</p>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="cart-footer">
+          <h3>your total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <h3><span class="text-danger">Electro</span><span>shop</span></h3>
+        <p>Shopping made easy.</p>
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span>ElectroShop</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+    
+    <a href="#" class="scrollUp d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
